@@ -6,4 +6,9 @@ command:
 
 > php artisan r:l
 
+### 建立 Controller
+command:
+
+> php artisan make:controller HomeController
+
 

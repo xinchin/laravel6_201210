@@ -26,4 +26,5 @@ Route::group(['prefix'=>'test'], function(){
     Route::get('show', function(){
         return 'test/show';
     });
+    Route::get('home', 'HomeController@index');
 });
