@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::pattern('uid', '[0-9]{3}');
+
+Route::get('/show/{uid?}', function($uid=null){
+    // return 'hello';
+    return $uid ?? 'hello';
+});
+
+Route::group(['prefix'=>'test'], function(){
+    Route::get('show', function(){
+        return 'test/show';
+    });
+});
