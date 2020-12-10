@@ -3,6 +3,7 @@
 
 command:
 > php artisan route:list
+
 > php artisan r:l
 
 
