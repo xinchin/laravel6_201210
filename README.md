@@ -11,4 +11,9 @@ command:
 
 > php artisan make:controller HomeController
 
+> php artisan make:controller cool\TestController
+
+### 建立 資源控制器
+
+> php artisan make:controller cool\StudentsController --resource
 
