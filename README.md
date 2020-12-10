@@ -31,3 +31,10 @@ command:
 
 ### 執行 migrate
 > php artisan migrate
+
+
+### 產生 Eloquent 檔案
+
+> php artisan make:model Score
+
+> php artisan make:model Student
