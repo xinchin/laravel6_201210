@@ -17,3 +17,17 @@ command:
 
 > php artisan make:controller cool\StudentsController --resource
 
+### 初始化 Migration
+
+> php artisan migrate:install
+
+### 產生 migrate 檔案
+
+> php artisan make:migration create_students_table
+
+> php artisan make:migration create_scores_table
+
+
+
+### 執行 migrate
+> php artisan migrate
