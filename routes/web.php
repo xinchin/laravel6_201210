@@ -34,3 +34,7 @@ Route::group(['prefix'=>'test'], function(){
 });
 
 
+Route::group(['prefix' => 'webpage'], function () {
+    Route::get('demo1', 'webpage\Demo1Controller@index');
+});
+
