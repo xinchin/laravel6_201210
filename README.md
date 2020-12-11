@@ -38,3 +38,10 @@ command:
 > php artisan make:model Score
 
 > php artisan make:model Student
+
+### 產生 Seeder 檔案
+
+> php artisan make:seeder DataTableSeeder
+
+### 執行 Seeding
+> php artisan db:seed

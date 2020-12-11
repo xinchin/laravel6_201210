@@ -3,12 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use app\User as UserEloquent;
-use app\Score as ScoreEloquent;
+use App\User as UserEloquent;
+use App\Score as ScoreEloquent;
 
 class Student extends Model
 {
-    protected $table = 'scores';
+    protected $table = 'students';
 
     public function user(){
         return $this->belongsTo(UserEloquent::class);
